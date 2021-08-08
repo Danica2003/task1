@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "5ac94c3b-9082-4c18-9754-39bc11478db4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.insidemaps.com/property/evoK0wBOkZ/project/HOWbkk8B4y/listing?env=production&projectId=HOWbkk8B4y/api/v1/user/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"dantonijevic@mail.com\",\r\n    \"password\":\"123123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.insidemaps.com/property/evoK0wBOkZ/project/HOWbkk8B4y/listing?env=production&projectId=HOWbkk8B4y/api/v1/user/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"insidemaps",
+						"com"
+					],
+					"path": [
+						"property",
+						"evoK0wBOkZ",
+						"project",
+						"HOWbkk8B4y",
+						"listing"
+					],
+					"query": [
+						{
+							"key": "env",
+							"value": "production"
+						},
+						{
+							"key": "projectId",
+							"value": "HOWbkk8B4y/api/v1/user/login"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
